@@ -1,5 +1,5 @@
 <h1>Generative Art</h1>
-<p>Various generative art made using the Two.js library.</p>
+<p>Various visual experiments made using the Two.js library.</p>
 
 
 <h2>Bullseye</h2>
