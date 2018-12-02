@@ -1,8 +1,6 @@
-// Make an instance of two and place it on the page.
-var elem = document.getElementById('draw-shapes');
-var params = { width: 1000, height: 800 };
+var elem = document.getElementById('draw-bullseye');
+var params = { width: 500, height: 500 };
 var two = new Two(params).appendTo(elem);
-
 let bullseye = two.makeGroup();
 let shading = two.makeGroup();
 
@@ -10,6 +8,8 @@ let x = 400;
 let y = 250; 
 let radius = 30; 
 let bullseyeSize = 6;
+
+// CREATES BULLSEYE AND SHADING 
 
 function createBullsEye(){
     for (i = bullseyeSize; i > 0; i--){
@@ -21,27 +21,32 @@ function createBullsEye(){
 
 createBullsEye();
 
+// DEFINES ORIGINAL COLOR 
 let r = 200; 
 let g = 110; 
 let b = 130;
 
+// FUNCTION TO COLOR EACH CIRCLE THAT MAKES UP THE BULLSEYE
 function colorBullsEye(){
     for (i = 0; i < bullseyeSize; i++){
         bullseye.children[i].fill = 'rgb(' + r*(i/2) + ', ' + g*(i/2) + ', ' + b/2 + ')';
     }
 }
 
+colorBullsEye();
+
+// STYLES 
 bullseye.stroke = 'none';
 
-
 shading.translation.x -= 15;
+shading.stroke = 'rgb(20, 20, 20)';
 shading.fill = 'none';
 shading.linewidth = 30;
 shading.opacity = .1;
 shading.children[0].stroke = 'none';
 
-colorBullsEye();
 
+// ANIMATION LOGIC FUNCTION 
 let shouldLightenShading = false; 
 
 function toggleShading(){
