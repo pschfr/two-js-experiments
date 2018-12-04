@@ -3,8 +3,9 @@
 
 <h2>Patterns - <a href="http://anokhee.github.io/bullseye">Live</a></h2>
 <div style="display:inline-block">
-  <img height="300px" width="300px" src="two-js/imgs/pattern1.png" alt="pattern">
+  <img height="300px" width="300px" src="two-js/imgs/pattern4.png" alt="pattern">
   <img height="300px" width="300px" src="two-js/imgs/pattern2.png" alt="pattern">
+  <img height="300px" width="300px" src="two-js/imgs/pattern1.png" alt="pattern">
   <img height="300px" width="300px" src="two-js/imgs/pattern3.png" alt="pattern">
 </div>
 
