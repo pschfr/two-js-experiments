@@ -7,6 +7,7 @@
   <img height="300px" width="300px" src="two-js/imgs/pattern2.png" alt="pattern">
   <img height="300px" width="300px" src="two-js/imgs/pattern1.png" alt="pattern">
   <img height="300px" width="300px" src="two-js/imgs/pattern3.png" alt="pattern">
+  <img height="600px" width="600px" src="two-js/imgs/pattern5.png" alt="pattern">
 </div>
 
 <h2>Face Generator - <a href="http://anokhee.github.io/v2">Live</a></h2>
