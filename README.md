@@ -8,9 +8,11 @@
   <img height="250px" width="250px" src="two-js/imgs/pattern1.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern3.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern6.png" alt="pattern">
-  <img height="250px" width="250px" src="two-js/imgs/pattern7.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern8.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern9.png" alt="pattern">
+ 
+  
+  
   <h3>Face Pattern (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/face-pattern"> two-js/face-pattern/</a>)</h3> 
   <img height="600px" width="600px" src="two-js/imgs/pattern5.png" alt="pattern">
 </div>
