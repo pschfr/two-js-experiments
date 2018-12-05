@@ -12,16 +12,16 @@
 
 
   
-<h3>Faces (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/faces.js"> two-js/pattern-gen/faces.js</a>)</h3> 
+<h3>Faces (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/faces.js">two-js/pattern-gen/faces.js</a>)</h3> 
   <img height="500px" width="500px" src="two-js/imgs/special-pattern-2.png" alt="pattern">
   
-<h3>Ladybugs (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/ladybugs.js"> two-js/pattern-gen/ladybugs.js</a>)</h3> 
+<h3>Ladybugs (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/ladybugs.js">two-js/pattern-gen/ladybugs.js</a>)</h3> 
   <img height="500px" width="500px" src="two-js/imgs/special-pattern-1.png" alt="pattern">
   
-<h3>Wave (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/waves.js"> two-js/pattern-gen/waves.js/</a>)</h3> 
+<h3>Wave (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/waves.js">two-js/pattern-gen/waves.js/</a>)</h3> 
   <img height="500px" width="500px" src="two-js/imgs/special-pattern-3.png" alt="pattern">
 
-<h3>Bismuth (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/bismuth.js"> two-js/pattern-gen/bismuth.js</a>)</h3> 
+<h3>Bismuth (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/bismuth.js">two-js/pattern-gen/bismuth.js</a>)</h3> 
   <img height="500px" width="500px" src="two-js/imgs/special-pattern-4.png" alt="pattern">
   
   
