@@ -6,8 +6,10 @@
   <img height="250px" width="250px" src="two-js/imgs/pattern4.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern2.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern1.png" alt="pattern">
+  <img height="250px" width="250px" src="two-js/imgs/pattern5.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern3.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern6.png" alt="pattern">
+  <img height="250px" width="250px" src="two-js/imgs/pattern7.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern8.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern9.png" alt="pattern">
  
