@@ -2,7 +2,7 @@
 <p>Various visual experiments with code.</p>
 
 <h2>Patterns</h2>
-<p>A couple of patterns I was able to generate with the <a href="two.js.org">Two.js library</a> using the same general algorithm with some tweaking: a simple triple-nested loop (i > j > k), with i being the number of shapes across, j as the number of shapes up and down, and k as the radius*. k is nested inside i and j to create a 'stacking' effect, but it can be removed and the value can be hard-coded, if needed.<br><br>
+<p>A couple of patterns I was able to generate with the <a href="two.js.org">Two.js library</a> using the same general algorithm with some tweaking: a simple triple-nested loop (i > j > k), with i being the number of shapes across, j as the number of shapes up and down, and k as the radius*. k is nested inside i and j to create a 'stacking' effect, but it can be removed and the value can be hard-coded, if needed.<br>
   
 From there, I was able to make a decent variety of generative designs. Since Two automatically generates these as SVGs, they can be animated or made interactive with JavaScript (this is pretty simple with Two's built-in animation loop). The six smaller patterns directly below this paragraph don't have an associated .js file, but the 4 "special" patterns link to their respective .js files (just in case anyone is interested). Feel free to use and take whatever you want from this.<br><br>
 *or, radius of the largest shape, if stacked</p>
