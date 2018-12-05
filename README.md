@@ -6,7 +6,7 @@
   <img height="250px" width="250px" src="two-js/imgs/pattern4.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern2.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern1.png" alt="pattern">
-  <img height="250px" width="250px" src="two-js/imgs/pattern5.png" alt="pattern">
+  <img height="250px" width="250px" src="two-js/imgs/pattern10-2.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern3.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern6.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern7.png" alt="pattern">
@@ -15,9 +15,9 @@
  
   
   
-  <h3>Face Pattern (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/face-pattern"> two-js/face-pattern/</a>)</h3> 
-  <img height="600px" width="600px" src="two-js/imgs/pattern5.png" alt="pattern">
-</div>
+  <h3>Faces (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/faces.js"> two-js/face-pattern/</a>)</h3> 
+  <img height="500px" width="500px" src="two-js/imgs/pattern5.png" alt="pattern">
+  
 
 <h2>Face Generator - <a href="http://anokhee.github.io/v2">Live</a></h2>
 <div style="display:inline-block">
