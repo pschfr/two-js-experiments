@@ -10,7 +10,9 @@ Notes:
 
 1. k is marked as optional because it can be removed from the nested loop altogether. Removing k will generate the repeated shape as a single, unstacked shape with a fixed radius value.
 
-2. I don't currently have a live demo of these patterns being generated because the browser renders some of these files (namely those like bismuth.js) <i>verrry slowly</i> :-P... Please feel free to clone whatever you want to if you're interested, but if you want to play with the algorithm you may experience some slowness or crashing if the math gets too crazy. 
+2. I don't currently have a live demo of these patterns being generated because the browser renders some of these files (namely those like bismuth.js) <i>verrry slowly</i> :-P...Please feel free to clone whatever you want to if you're interested, but if you want to play with the algorithm you may experience some slowness or crashing if the math gets too crazy. 
+
+3. If you happen to know of a more efficient way to render patterns like this, please let me know.
 
   
   
