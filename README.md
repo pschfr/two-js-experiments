@@ -4,6 +4,15 @@
 <h2>Patterns</h2>
 <div style="display:inline-block">
   
+Below are 12 patterns I was able to generate to the browser using the Two.js library. Each of these patterns was created using the same basic algorithm: a triple-nested for loop (i > j > k [optional]*), with i being the number of shapes along the x axis, j being the number of shapes along the y axis, and k being the radius of the shape (or largest shape, if nested).  
+
+Notes: 
+
+1. k is marked as optional because it can be removed from the nested loop altogether. Removing k will generate the repeated shape as a single, unstacked shape with a fixed radius value.
+
+2. I don't currently have a live demo of these patterns being generated because the browser renders some of these files (namely those like bismuth.js) <i>verrry slowly</i> :-P... If you're interested, though, please feel free to clone whatever you want to and play around with the algorithm, but you may experience slowness or altogether crashing if the math gets too crazy.  
+
+  
   
  <h4>"Special" Patterns</h4>
  <p>Clicking on one of these patterns will take you to its code.</p>
