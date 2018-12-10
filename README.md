@@ -1,6 +1,10 @@
 <h1>Generative Art</h1>
 <p>Various visual experiments made using the Two.js library.</p>
 
+<h2>Face Generator</h2>
+<div style="display: inline-block">
+  <img src="two-js/imgs/face--gen.png">
+ </div>
 <h2>Patterns</h2>
 <div style="display:inline-block">
   
