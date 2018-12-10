@@ -4,9 +4,36 @@ var params = {
   height: 500
 };
 var two = new Two(params).appendTo(elem);
-elem.style.backgroundColor = 'yellowgreen';
+elem.style.backgroundColor = 'rgb(192,208,224)';
 
 let backgroundPattern = two.makeGroup();
+let backgroundPattern2 = two.makeGroup();
+
+x = 50; 
+y = 50; 
+i = 20; 
+j = 20;
+size = 3;
+sides = 4;
+
+for(i = 0; i < 20; i++){
+  for(j = 0; j < 20; j++){
+    backgroundPattern.add(two.makePolygon(x * i, y * j, size, sides));
+    backgroundPattern2.add(two.makeCircle(x * i + 20, y * j + 20, size, sides));
+    for(k = 0; k < i * j; k++){
+      backgroundPattern.children[k].rotation += k * .01;
+
+    }
+  }
+}
+
+backgroundPattern.fill = 'red';
+backgroundPattern.stroke = 'none';
+backgroundPattern.opacity = .3;
+
+backgroundPattern2.fill = 'blue';
+backgroundPattern2.stroke = 'none';
+backgroundPattern2.opacity = .3;
 
 let head = two.makeCurve(
   250, 50, // 0 
@@ -118,18 +145,32 @@ let rightEyebrow = two.makeCurve(
 )
 
 
-leftCheek.fill = 'pink';
-rightCheek.fill = 'pink';
+
 
 
 let face = two.makeGroup(head, leftCheek, rightCheek, leftEye, rightEye, leftPupil, rightPupil, leftEyebrow, rightEyebrow, mouth, nose);
 face.linewidth = 3;
-leftEyebrow.linewidth = 20;
-rightEyebrow.linewidth = 20;
+leftEyebrow.linewidth = 15;
+rightEyebrow.linewidth = 15;
 
 face.fill = 'none';
 head.fill = 'white';
 nose.fill = 'white';
+leftCheek.fill = 'pink';
+rightCheek.fill = 'pink';
+leftEye.fill = 'white';
+rightEye.fill = 'white';
+leftPupil.fill = 'black';
+rightPupil.fill = 'black';
+
+// let faceShadow = face.clone();
+// faceShadow.translation.x += 5;
+// faceShadow.translation.y += 8;
+// faceShadow.fill = 'none';
+// faceShadow.linewidth = 6;
+// faceShadow.opacity = .3;
+
+// let allAssets = two.makeGroup(face, faceShadow);
 
 two.bind('update', function(frameCount) {
 }).play();  

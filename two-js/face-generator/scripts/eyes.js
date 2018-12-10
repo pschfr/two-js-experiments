@@ -45,3 +45,4 @@ pupilsYPosSlider.addEventListener('input', function () {
     leftPupil.translation.y = pupilsYPosSlider.value;
     rightPupil.translation.y = pupilsYPosSlider.value;
 });
+

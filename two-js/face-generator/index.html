@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flower</title>
+    <title>Face Generator</title>
     <script src="scripts/two.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Anaheim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anaheim|Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
@@ -194,7 +194,7 @@
 
                 <div class="slidecontainer">
                     <label class="sliderLabel">Eyebrows Y Pos</label>
-                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowYPosSlider">
+                    <input type="range" min="0" max="220" value="0" class="slider" id="eyebrowYPosSlider">
                 </div>
 
 
@@ -205,9 +205,13 @@
 
                 <div class="slidecontainer">
                     <label class="sliderLabel">Eyebrow Spacing</label>
-                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowSpacingSlider">
+                    <input type="range" min="0" max="250" value="0" class="slider" id="eyebrowSpacingSlider">
                 </div>
-
+                
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Rotation</label>
+                    <input type="range" min="-360" max="360" value="0" class="slider" id="eyebrowRotationSlider">
+                </div>
 
             
 
@@ -217,7 +221,17 @@
 
 
         </div>
+
+        <div class="tabsContainer">
+            <div class="tab" id="headTab">Head</div>
+            <div class="tab" id="eyesTab">Eyes</div>
+            <div class="tab" id="eyebrowsTab">Eyebrows</div>
+            <div class="tab" id="noseTab">Nose</div>
+            <div class="tab" id="mouthTab">Mouth</div>
+        </div>
     </div>
+
+    <script src="scripts/tabs.js"></script>
     <script src="scripts/eyebrows.js"></script>
     <script src="scripts/mouth.js"></script>
     <script src="scripts/nose.js"></script>
