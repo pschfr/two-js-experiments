@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flower</title>
+    <script src="scripts/two.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anaheim" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div class="svgHolder">
+            <div id="draw-pattern"></div>
+        </div>
+
+
+        <div class="slidersContainer">
+            <div id="customizeHead">
+                <h3 class="sectionTitle">Head</h3>
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Head Tip</label>
+                    <input type="range" min="-240" max="-100" value="-200" class="slider" id="headTipSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Forehead Width</label>
+                    <input type="range" min="5" max="240" value="200" class="slider" id="foreheadWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Cheek Width</label>
+                    <input type="range" min="5" max="240" value="200" class="slider" id="cheekWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Chin Width</label>
+                    <input type="range" min="5" max="240" value="200" class="slider" id="chinWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Chin Height</label>
+                    <input type="range" min="127" max="240" value="200" class="slider" id="chinHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Chin Tip</label>
+                    <input type="range" min="138" max="240" value="200" class="slider" id="chinTipSlider">
+                </div>
+            </div>
+
+            <div id="customizeEyes">
+                <h3 class="sectionTitle">Eyes</h3>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyes Height</label>
+                    <input type="range" min="0" max="70" value="0" class="slider" id="eyesHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyes Width</label>
+                    <input type="range" min="0" max="75" value="0" class="slider" id="eyesWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyes Rotation</label>
+                    <input type="range" min="-360" max="360" value="0" class="slider" id="eyesRotationSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyes Spacing</label>
+                    <input type="range" min="50" max="250" value="50" class="slider" id="eyesSpacingSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyes Y Position</label>
+                    <input type="range" min="0" max="350" value="175" class="slider" id="eyesYPosSlider">
+                </div>
+
+                <hr>
+                <h3 class="sectionTitle">Pupils</h3>
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Pupils Spacing</label>
+                    <input type="range" min="-50" max="50" value="0" class="slider" id="pupilsSpacingSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Pupils Y Position</label>
+                    <input type="range" min="-50" max="50" value="0" class="slider" id="pupilsYPosSlider">
+                </div>
+
+
+
+
+            </div>
+
+            <div id="customizeNose">
+                <h3 class="sectionTitle">Nose</h3>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Height</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="noseHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Width</label>
+                    <input type="range" min="0" max="70" value="0" class="slider" id="noseWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Width 2</label>
+                    <input type="range" min="0" max="120" value="0" class="slider" id="noseWidth2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Height 2</label>
+                    <input type="range" min="0" max="70" value="0" class="slider" id="noseHeight2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Tip</label>
+                    <input type="range" min="0" max="70" value="0" class="slider" id="noseTipSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Nose Rotation</label>
+                    <input type="range" min="-360" max="360" value="0" class="slider" id="noseRotationSlider">
+                </div>
+
+
+
+
+            </div>
+
+
+            <div id="customizeMouth">
+                <h3 class="sectionTitle">Mouth</h3>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Mouth Width</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="mouthWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Mouth Height</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="mouthHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Mouth Width 2</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="mouthWidth2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Mouth Height 2</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="mouthHeight2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Mouth Y Position</label>
+                    <input type="range" min="120" max="450" value="0" class="slider" id="mouthYPosSlider">
+                </div>
+
+
+            </div>
+
+            <div id="customizeEyebrows">
+                <h3 class="sectionTitle">Eyebrows</h3>
+                
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Width</label>
+                    <input type="range" min="0" max="120" value="0" class="slider" id="eyebrowWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Height</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Width 2</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowWidth2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Height 2</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowHeight2Slider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrows Y Pos</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowYPosSlider">
+                </div>
+
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Thickness</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowThicknessSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Eyebrow Spacing</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="eyebrowSpacingSlider">
+                </div>
+
+
+            
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="scripts/eyebrows.js"></script>
+    <script src="scripts/mouth.js"></script>
+    <script src="scripts/nose.js"></script>
+    <script src="scripts/eyes.js"></script>
+    <script src="scripts/head.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

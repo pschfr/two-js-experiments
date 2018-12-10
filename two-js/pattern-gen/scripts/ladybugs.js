@@ -4,6 +4,8 @@ var params = {
     height: 500
 };
 
+
+
 elem.style.backgroundColor = 'skyblue';
 
 var two = new Two(params).appendTo(elem);
@@ -54,7 +56,6 @@ wings.linewidth = .5;
 spots.fill = 'black';
 antennae.fill = 'none';
 
-let wingsAreShowing = true; 
 
 two.bind('update', function(frameCount) {
     

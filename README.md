@@ -13,21 +13,6 @@
   <img height="250px" width="250px" src="two-js/imgs/pattern8.png" alt="pattern">
   <img height="250px" width="250px" src="two-js/imgs/pattern9.png" alt="pattern">
  
-  
-  
-  <h3>Faces (<a href="https://github.com/anokhee/creative_coding/tree/master/two-js/pattern-gen/faces.js"> two-js/face-pattern/</a>)</h3> 
-  <img height="500px" width="500px" src="two-js/imgs/pattern5.png" alt="pattern">
-  
-
-<h2>Face Generator - <a href="http://anokhee.github.io/v2">Live</a></h2>
-<div style="display:inline-block">
-  <img height="200px" width="200px" src="two-js/imgs/face1.png" alt="Face 1">
-  <img height="200px" width="200px" src="two-js/imgs/face2.png" alt="Face 2">
-  <img height="200px" width="200px" src="two-js/imgs/face3.png" alt="Face 3"><br>
-  <img height="200px" width="200px" src="two-js/imgs/face4.png" alt="Face 4">
-  <img height="200px" width="200px" src="two-js/imgs/face5.png" alt="Face 5">
-  <img height="200px" width="200px" src="two-js/imgs/face6.png" alt="Face 6">
-</div>
 
 <h2>Bullseye - <a href="http://anokhee.github.io/bullseye">Live</a></h2>
 <div style="display:inline-block">
