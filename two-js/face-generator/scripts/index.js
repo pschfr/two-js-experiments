@@ -92,12 +92,12 @@ for (i = 5; i > 0; i--){
 
 let cheekRadius = 40;
 
-let leftCheek = two.makeCircle(
-  250 - 95, 300, 40
+let leftCheek = two.makeEllipse(
+  250 - 95, 300, 40, 40
 )
 
-let rightCheek = two.makeCircle(
-  250 + 95, 300, 40
+let rightCheek = two.makeEllipse(
+  250 + 95, 300, 40, 40
 )
 
 

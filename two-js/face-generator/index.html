@@ -136,7 +136,6 @@
 
             </div>
 
-
             <div id="customizeMouth">
                 <h3 class="sectionTitle">Mouth</h3>
 
@@ -218,6 +217,33 @@
 
             </div>
 
+            <div id="customizeCheeks">
+                <h3 class="sectionTitle">Cheeks</h3>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Cheeks Width</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="cheeksWidthSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Cheeks Height</label>
+                    <input type="range" min="-120" max="120" value="0" class="slider" id="cheeksHeightSlider">
+                </div>
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Cheeks Spacing</label>
+                    <input type="range" min="120" max="450" value="0" class="slider" id="cheeksSpacingSlider">
+                </div>
+
+
+                <div class="slidecontainer">
+                    <label class="sliderLabel">Cheeks Y Position</label>
+                    <input type="range" min="120" max="450" value="0" class="slider" id="cheeksYPosSlider">
+                </div>
+
+
+            </div>
+
 
 
         </div>
@@ -226,12 +252,14 @@
             <div class="tab" id="headTab">Head</div>
             <div class="tab" id="eyesTab">Eyes</div>
             <div class="tab" id="eyebrowsTab">Eyebrows</div>
+            <div class="tab" id="cheeksTab">Cheeks</div>
             <div class="tab" id="noseTab">Nose</div>
             <div class="tab" id="mouthTab">Mouth</div>
         </div>
     </div>
 
     <script src="scripts/tabs.js"></script>
+    <script src="scripts/cheeks.js"></script>
     <script src="scripts/eyebrows.js"></script>
     <script src="scripts/mouth.js"></script>
     <script src="scripts/nose.js"></script>
