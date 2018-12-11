@@ -86,17 +86,18 @@ body {
     display: flex;
     align-items: center;
     border: 3px solid black;
-    padding: 7px;
-    margin-top: 15px;
+    padding: 5px;
+    margin-top: 20px;
     width: 80px;
     height: 35px;
-    transform: translateY(-15px) translateX(-3px);
+    transform: translateY(-20px) translateX(-3px);
     background-color: rgb(225, 223, 223);
     border-radius: 0 20px 20px 0;
+    z-index: 3;
 }
 
 #headTab {
-    border-left: none;
+    border-left: white;
     background-color: rgb(255, 253, 253);
 }
 
@@ -123,3 +124,4 @@ body {
 #customizeCheeks {
     display: none;
 }
+

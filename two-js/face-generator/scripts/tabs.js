@@ -1,7 +1,7 @@
 headTab.addEventListener('click', function(){
     headTab.style.backgroundColor = 'rgb(255, 253, 253)';
     customizeHead.style.display = 'block';
-    headTab.style.borderLeft = 'none';
+    headTab.style.borderLeft = 'white';
 
     eyesTab.style.backgroundColor = 'rgb(225, 223, 223)';
     customizeEyes.style.display = 'none';
