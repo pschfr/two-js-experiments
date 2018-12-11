@@ -12,7 +12,7 @@ Live demos of previous iterations of this idea:
 <a href="http://anokhee.github.io/make_a_buddy/">Version 1</a>
 
 <div style="display: inline-block">
-  <img src="two-js/imgs/face--gen.png">
+  <img src="two-js/imgs/face-gen.png">
  </div>
 <h2>Patterns</h2>
 <div style="display:inline-block">
