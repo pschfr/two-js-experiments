@@ -3,9 +3,11 @@
 
 <h2>Face Generator</h2>
 A small Face Generator, inspired in part by Miis and <a href="http://bobobo.wikia.com/wiki/J">J from Bobobo-bo Bo-bobo</a>. It was originally created as a tool for me to play around with Bezier curves and retrieve values to create animations with Two.js. 
-<br>
+
+
 Live demos of previous iterations of this idea:  
-<br>
+
+
 <a href="http://anokhee.github.io/v2/">Version 2</a>  
 <a href="http://anokhee.github.io/make_a_buddy/">Version 1</a>
 
