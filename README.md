@@ -1,5 +1,7 @@
 <h1>Generative Art</h1>
 <p>Various visual experiments made using the Two.js library.</p>
+<h2>Weather Simulator</h2>
+<img src="two-js/imgs/weather.gif">
 
 <h2>Face Generator</h2>
 A small Face Generator, inspired in part by Miis and <a href="http://bobobo.wikia.com/wiki/J">J from Bobobo-bo Bo-bobo</a>. It was originally created as a tool for me to play around with Bezier curves and retrieve values to create animations with Two.js. 
