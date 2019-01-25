@@ -4,7 +4,7 @@
 <img src="two-js/imgs/weather.gif">
 
 <h2>Face Generator</h2>
-A small Face Generator, inspired in part by Miis and <a href="http://bobobo.wikia.com/wiki/J">J from Bobobo-bo Bo-bobo</a>. It was originally created as a tool for me to play around with Bezier curves and retrieve values to create animations with Two.js. 
+A small Face Generator, inspired in part by Miis and <a href="http://bobobo.wikia.com/wiki/J">J from Bobobo-bo Bo-bobo</a>. It was originally created as a tool for me to play around with parametric curves and retrieve values to create animations with Two.js. 
 
 
 Live demos of previous iterations of this idea:  
